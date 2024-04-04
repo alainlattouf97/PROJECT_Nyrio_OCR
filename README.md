@@ -12,6 +12,7 @@ License
 Description
 The program uses an SVM model for character classification on preprocessed images. Images are resized and preprocessed before being passed to the SVM model for classification. Detected characters are then compared with the results from PyTesseract to evaluate the model's performance.
 
+![alt text](image.png)
 Installation
 Clone this repository:
 bash
