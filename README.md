@@ -1,6 +1,19 @@
 # Projet de Contrôle de Robot avec Détection de Caractères
 
-Ce projet vise à contrôler les mouvements d'un robot en Python tout en intégrant une étape de détection de caractères à l'aide de techniques de reconnaissance optique de caractères (OCR). Deux approches pour la détection de caractères sont comparées : un modèle SVM et PyTesseract d'une part, et un modèle CNN avec PyTesseract d'autre part.
+Ce projet vise à contrôler les mouvements d'un robot en Python tout en intégrant une détection de caractères à l'aide de techniques de reconnaissance optique de caractères (OCR) au Robot. 
+Deux approches pour la détection de caractères sont comparées : un modèle SVM et PyTesseract d'une part, et un modèle CNN avec PyTesseract d'autre part.
+Cependant ajout de la detection Texte  n'as pus etre  ajouter au commande du robot 
+ce sera la prochaine evolution du projet
+
+
+![alt text](image-1.png) ![alt text](image-2.png)
+
+
+## Credits
+
+
+- [Anis BERGUIGUA]
+- [Brian LY]
 
 ## Contenu du Projet
 
@@ -17,10 +30,13 @@ dans ce projet il faut installer les librairies suivante:
 pip install numpy tensorflow scikit-learn opencv-python matplotlib pytesseract
 
 
-## Installation
+## Tests
 
-1. Cloner ce dépôt :
 
-```bash
-git clone https://github.com/votre-utilisateur/projet-robot-detection-caracteres.git
-cd projet-robot-detection-caracteres
+
+voici les resultat du modele en utilisant le modele CNN
+![alt text](image-3.png)
+
+en utilisant SVM
+
+![alt text](image-4.png)
